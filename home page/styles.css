@@ -61,7 +61,7 @@
     padding: 40px 5%;
     text-align: center;
     color: var(--text-color);
-    height: 90vh;
+    height: 85vh;
 }
 
 .content-left {
@@ -216,7 +216,67 @@
     color: var(--text-color);
     text-align: center; /* Align text properly */
 }
+.new-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: auto; /* Dynamically adjust width */
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    
+}
+.youtube-video{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    margin-left: 5rem;
+}
 
+.youtube-video iframe {
+    width:  599.037px;
+    height: 400px;
+}
+
+.youtube-text{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    margin-left: 2rem;
+}
+.youtube-text h1{
+    font-size: 29px;
+    color: var(--button-color);
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 80%;
+}
+.youtube-text p{
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.youtube-text button{
+    background-color: #227dc7;
+    color: var(--text-color);
+    border: none;
+    height:  48px;
+    width: 164.5px;
+    padding:  12px 24px 12px 24px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    display: block;
+    margin-top: 10px;
+}
+
+.youtube-text button:hover {
+    background-color: #0b5ed7;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
