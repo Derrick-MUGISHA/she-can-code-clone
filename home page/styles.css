@@ -217,13 +217,14 @@
     text-align: center; /* Align text properly */
 }
 .new-section{
+    background-color: #E2E8F0;
     display: flex;
     justify-content: space-between;
     gap: 15px;
     width: auto; /* Dynamically adjust width */
     font-weight: bold;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 10px;
     
 }
 .youtube-video{
@@ -243,9 +244,9 @@
 .youtube-text{
     margin-top: 90px;
     margin-bottom: 30px;
-    margin-left: 2rem;
 }
 .youtube-text h1{
+    margin-left: 2rem;
     font-size: 29px;
     color: var(--button-color);
     margin-bottom: 10px;
@@ -253,6 +254,7 @@
     width: 80%;
 }
 .youtube-text p{
+    margin-left: 2rem;
     width: 80%;
     font-size: 20px;
     line-height: 1.5;
@@ -261,6 +263,7 @@
 }
 
 .youtube-text button{
+    margin-left: 2rem;
     background-color: #227dc7;
     color: var(--text-color);
     border: none;
@@ -277,6 +280,93 @@
 .youtube-text button:hover {
     background-color: #0b5ed7;
 }
+.hero-section {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: flex-start; /* Align cards at the top */
+    gap: 15px;
+    width: auto; /* Dynamically adjust width */
+    font-weight: bold;
+    font-size: 16px;
+    background-color: aquamarine;
+    padding: 80px;
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
+    width: 100%; 
+    height: 70vh; 
+    background-color: var(--button-color); 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-profile-section {
+    display: flex;
+    align-items: center; 
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.card-profile-section img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card-profile-section h3 {
+    margin: 0;
+    font-size: 18px;
+    gap: 10px;
+}
+
+.card-profile-section p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.card-profile-section span {
+    margin: 0;
+    font-size: 14px;
+    color: var(--main-color)
+}
+
+.card-text-section {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+.course-section{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: auto; /* Dynamically adjust width */
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #F8F9FA;
+    padding: 20px;
+    justify-content: center;
+}
+
+.course-text{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+    width: auto;
+    font-weight: bold;
+}
+.course-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
