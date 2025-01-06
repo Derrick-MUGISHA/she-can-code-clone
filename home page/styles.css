@@ -339,33 +339,89 @@
     color: #333;
     line-height: 1.5;
 }
-.course-section{
+.course-section {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    width: auto; /* Dynamically adjust width */
-    font-weight: bold;
-    font-size: 16px;
-    background-color: #F8F9FA;
-    padding: 20px;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #F8F9FA;
 }
 
-.course-text{
-    margin-top: 50px;
-    margin-bottom: 30px;
-    display: flex;
-    gap: 10px;
-    width: auto;
+.course-section h1 {
+    margin: 20px 0;
+    font-size: 24px;
     font-weight: bold;
+    color: var(--main-color);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
 }
-.course-text p {
-    margin: 0;
+
+.course-box {
+    flex: 1 1 calc(25% - 20px);
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 300px;
+    transition: all 0.3s ease;
+}
+
+.course-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.pop-out-top img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.pop-out-text {
+    margin-top: 10px;
     font-size: 14px;
-    color: #666;
-    line-height: 1.5;
+    color: #333;
 }
+
+.pop-out-text h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+.pop-out-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.pop-out-details p {
+    margin: 0;
+}
+
+.pop-out-button button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pop-out-button button:hover {
+    background-color: #0056b3;
+}
+
+
 
 
 /* Responsive Design */
