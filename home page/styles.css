@@ -569,6 +569,63 @@
     color: #555;
   }
 
+
+  /* <!-- Empowering Young Women --> */
+
+.empowering-section {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.images img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.text-content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-content h2 {
+    color: #0056d2;
+    margin-bottom: 15px;
+}
+
+.text-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-content ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-content ul li::before {
+    content: "✓";
+    color: #00c4cc;
+    font-weight: bold;
+}
+
+
+
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .trending-stories {
