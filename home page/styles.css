@@ -280,32 +280,29 @@
 .youtube-text button:hover {
     background-color: #0b5ed7;
 }
+
+/* Testimonials Section */
 .hero-section {
-    margin: 10px 0;
     display: flex;
-    justify-content: center; /* Center align horizontally */
-    align-items: flex-start; /* Align cards at the top */
-    gap: 15px;
-    width: auto; /* Dynamically adjust width */
-    font-weight: bold;
-    font-size: 16px;
-    background-color: aquamarine;
-    padding: 80px;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 40px 5%;
+    flex-wrap: wrap;
 }
 
-.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7, .card-8 {
-    width: 100%; 
-    height: 70vh; 
-    background-color: var(--button-color); 
-    border: 1px solid #ccc;
+.card {
+    flex: 1;
+    max-width: 30%;
+    background-color: var(--button-color);
+    color: var(--text-color);
     border-radius: 8px;
-    padding: 50px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .card-profile-section {
     display: flex;
-    align-items: center; 
+    align-items: center;
     gap: 16px;
     margin-bottom: 16px;
 }
@@ -314,111 +311,6 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-}
-
-.card-profile-section h3 {
-    margin: 0;
-    font-size: 18px;
-    gap: 10px;
-}
-
-.card-profile-section p {
-    margin: 0;
-    font-size: 14px;
-    color: #666;
-}
-.card-profile-section span {
-    margin: 0;
-    font-size: 14px;
-    color: var(--main-color)
-}
-
-.card-text-section {
-    margin-top: 12px;
-    font-size: 14px;
-    color: #333;
-    line-height: 1.5;
-}
-.course-section {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 20px;
-    background-color: #F8F9FA;
-}
-
-.course-section h1 {
-    margin: 20px 0;
-    font-size: 24px;
-    font-weight: bold;
-    color: var(--main-color);
-    text-align: center;
-    font-family: Arial, sans-serif;
-    letter-spacing: 1px;
-}
-
-.course-box {
-    flex: 1 1 calc(25% - 20px);
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    max-width: 300px;
-    transition: all 0.3s ease;
-}
-
-.course-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
-}
-
-.pop-out-top img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-}
-
-.pop-out-text {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #333;
-}
-
-.pop-out-text h5 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #007BFF;
-}
-
-.pop-out-details {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 0;
-}
-
-.pop-out-details p {
-    margin: 0;
-}
-
-.pop-out-button button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.pop-out-button button:hover {
-    background-color: #0056b3;
 }
 
 
