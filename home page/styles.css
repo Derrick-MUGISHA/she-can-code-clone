@@ -587,7 +587,7 @@
     position: relative; /* Ensures images are stacked relative to their container */
     display: inline-block;
     gap: 20px;
-    background-color: var(--second-bg-color);
+    background-color: #e7f3ff;
     height:  474px;
     width: 592px;
 
@@ -649,6 +649,51 @@
 .text-content ul .icon {
     font-size: 1.5em;
     color: #00c4cc;
+}
+
+
+/* partners-section */
+
+
+.partners-section {
+    margin-top: 4rem;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: var(--main-color)
+}
+
+.partners-section h2 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.partners-section p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-left: 30rem;
+    margin-top: 2rem;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logos img {
+    max-width: var(--logo-max-width);
+    max-height: 80px;
+    transition: transform 0.3s ease;
+    filter: grayscale(100%); /* Make logos grayscale */
+}
+
+.logos img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+    filter: grayscale(0%); /* Restore color on hover */
 }
 
 
