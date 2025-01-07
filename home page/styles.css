@@ -283,6 +283,7 @@
 
 /* Testimonials Section */
 .hero-section {
+    background-color: #0ef;
     display: flex;
     justify-content: space-between;
     gap: 20px;
@@ -312,6 +313,49 @@
     height: 50px;
     border-radius: 50%;
 }
+
+/* curse section */
+
+.courses-section {
+    background-color: #0b5ed7;
+    display: flex;
+    /* display: flex; */
+    justify-content: space-around;
+    /* gap: 20px; */
+    margin: 40px 5%;
+    flex-wrap: wrap;
+}
+
+.courses-section h1{
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+}
+.course-box{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    gap: 4rem;
+}
+.course-box-btn{
+    margin-top: 3rem;
+    background-color: #227dc7;
+    color: var(--text-color);
+    border: none;
+    height: 48px;
+    width: 164.5px;
+    padding: 12px 24px 12px 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-left: 3rem;
+}
+/* .course-box:hover {
+    transform: scale(1.1);
+} */
 
 
 
