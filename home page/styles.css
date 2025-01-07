@@ -300,6 +300,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 550.4px;
+    height: 312px;
     padding: 20px;
     text-align: left;
     display: flex;
@@ -342,7 +343,7 @@
 /* Carousel Controls */
 .carousel-controls {
     position: absolute;
-    top: 50%;
+    top: 186.8px;
     transform: translateY(-50%);
     width: 83%;
     display: flex;
@@ -372,18 +373,18 @@
 .courses-section {
     background-color: #0b5ed7;
     display: flex;
-    /* display: flex; */
     justify-content: space-around;
-    /* gap: 20px; */
     flex-wrap: wrap;
 }
 
 .courses-section h1{
     margin-bottom: 5rem;
     margin-left: 1rem;
+    font-size: 29px;
+    margin-top: 5rem;
 }
 .course-box{
-    height: 300px;
+    height: 90hv;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -416,32 +417,36 @@
 .trending-stories {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    margin: 20px;
+    padding: 16px 48px 96px 48px;
+    height: 655px;
+    width: 1519.2px;
     background-color: #f9f9f9;
-    margin: 40px 5%;
 }
 
 /* Main Story Styling */
 .main-story {
-    flex: 2; /* Takes 2/3 of the space */
+    flex: 1; /* Takes 2/3 of the space */
     position: relative;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    cursor: pointer;
 }
 
 .main-story img {
-    width: 100%;
+    width:  614.4px;
+    height: 384px;
     border-radius: 8px;
 }
 
 .main-story-text {
     position: absolute;
-    bottom: 20px;
+    bottom: 140px;
     left: 20px;
-    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
-    max-width: 90%;
+    width: 550.4px;
+    height:  64px;
 }
 
 .main-story-text h2 {
@@ -455,16 +460,16 @@
 }
 
 /* Side Stories Styling */
-.side-stories {
-    flex: 1; /* Takes 1/3 of the space */
+.side-stories { 
     display: flex;
+    gap: 18px;
     flex-direction: column;
-    gap: 15px;
+    margin-top: 8rem;
+    margin-right: 9rem;
 }
 
 .side-story {
     display: flex;
-    gap: 10px;
     align-items: center;
     background-color: #fff;
     border: 1px solid #ddd;
@@ -490,29 +495,7 @@
     color: #999;
     margin: 0;
 }
-
-/* See More Link */
-.see-more {
-    text-align: center;
-    display: inline-block;
-    margin-top: 10px;
-    color: #007bff;
-    text-decoration: none;
-    font-size: 14px;
-    transition: color 0.3s ease;
-}
-
-.see-more:hover {
-    color: #0056b3;
-}
-
-.Trending-Stories-button {
-    margin-left: 43rem;
-    margin-top: 3rem;
-    color: var(--text-color);
-}
-
-.Trending-Stories-button button {
+.load-more {
     background-color: #227dc7;
     color: var(--text-color);
     border: none;
@@ -522,20 +505,14 @@
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
-    margin-left: 1rem;
-}
-.Trending-Stories-button a {
-    text-decoration: none;
-    color: var(--text-color);
-    margin-bottom: 1rem;
+    margin-left: 32rem;
+    margin-top: 3rem;
 }
 
-.Trending-Stories-button button:hover {
-    background-color: #0b5ed7;
-    color : var(--text-color)
-}
-.Trending-Stories-button a:hover {
-    color : var(--text-color)
+.load-more:hover {
+    background-color: #1b6ec2;  
+    transition: background-color 0.3s ease;
+
 }
 
 /* Responsive Design */
