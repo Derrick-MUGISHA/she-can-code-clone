@@ -831,6 +831,7 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 30px;
+    max-width: 40%;
   }
   
   .footer-column {
