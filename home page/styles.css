@@ -790,7 +790,7 @@ footer {
   /* Subscription Section */
   .subscription {
     background-color: #0072BC;
-    padding: 30px;
+    padding: 30px 40px 90px;
     text-align: center;
     border-radius: 5px;
   }
@@ -828,14 +828,14 @@ footer {
   /* Footer Content Section */
   .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 30px;
-    max-width: 40%;
+    max-width: 80%;
+    margin-left: 8rem;
   }
   
   .footer-column {
-    flex: 1;
     min-width: 200px;
     margin-bottom: 20px;
   }
@@ -856,9 +856,18 @@ footer {
     border-radius: 8px;
   }
   
-  .highlight {
-    color: #1DA1F2;
-  }  
+  .logo {
+    width: 130px;
+    height: 83.275px;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+
+  p {
+    font-size: 16px;
+    margin-left: 2px;
+
+  }
 /* additional */
 
   h1 {
