@@ -868,6 +868,7 @@ footer {
     margin-left: 2px;
 
   }
+  
 /* additional */
 
   h1 {
@@ -879,6 +880,21 @@ img, iframe {
     height: auto;
 }
   /* This will target laptops and larger desktops. */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      display: none;
+    }
+  
+    .navbar.show-navbar {
+      display: flex;
+    }
+  
+    .content-top {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
 
 
   
